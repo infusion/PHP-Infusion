@@ -1,0 +1,13 @@
+Installing from sources
+
+   1. Unpack Infusion source package
+   2. Go to Infusion folder and type "phpize && ./configure && make && make install"
+   3. Make sure you have extension=infusion.so in your php.ini
+
+Compiling Sysload into PHP
+
+   1. Unpack Infusion source package to $PHP_SOURCE_DIR/ext/infusion
+   2. In php source root directory run commands: "rm configure && ./buildconf --force"
+   3. Configure PHP with command "./configure --with-infusion"
+   4. Run make && make install
+
