@@ -92,5 +92,3 @@ function typeof($var);
 
 function is_ref($var);
 
-
-?>
